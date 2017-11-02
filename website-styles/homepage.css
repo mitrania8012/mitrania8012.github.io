@@ -2,7 +2,7 @@
     -webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
     filter: brightness(50%);
 }
-.container {
+.photo {
     position: relative;
     text-align: center;
     color: white;}
@@ -34,4 +34,13 @@ a:active {
     color: white;
     background-color: transparent;
     text-decoration: none;
+}
+
+h3 {
+  font-family: georgia;
+}
+
+p {
+  font-size:25px;
+  font-family: georgia;
 }
