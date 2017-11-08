@@ -1,299 +1,440 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Tutorial</title>
+  <title>HTML Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="http://mitrania8012.github.io/html-reference.html" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<h1>Welcome to my HTML tutorial!</h1> <hr>
-<table>
-  <tr>
-    <th>Name  </th> 
-    <th>Start Tag  </th>
-    <th>End Tag  </th> 
-    <th>Example  </th>
-  </tr>
-   <tr>
-    <td><a href="#2">Doctype</a></td>
-    <td>&lt!DOCTYPE html&gt;</td>
-    <td>None</td>
-    <td>&lt!DOCTYPE html&gt;</td>
-  </tr>
-   <tr>
-    <td><a href="#2">HTML</a></td>
-    <td>&lt;html&gt;</td>
-    <td>None</td>
-    <td>&lt;html&gt;</td>
-  </tr>
-  <tr>
-    <td><a href="#2">Head</a></td>
-    <td>&lt;head&gt;</td>
-    <td>&lt;/head&gt;</td>
-    <td>&lt;head&gt;metdata here, including title;/head&gt;</td>
-  </tr>
-  <tr>
-    <td><a href="#2">Title</a></td>
-    <td>&lt;title&gt;</td>
-    <td>&lt;/title;</td>
-    <td>&lt;title&gt;Page Title&lt;/title&gt;</td>
-  </tr>
-  <tr>
-    <td><a href="#2">Body</a></td>
-    <td>&lt;body&gt;</td>
-    <td>&lt;/body&gt;</td>
-    <td>&lt;body&gt;visible HTML&lt;/body&gt;</td>
-  </tr>
-  <tr>
-    <td><a href="#1">Headings</a></td>
-    <td>&lt;h&gt;</td>
-    <td>&lt;/h&gt;</td>
-    <td>&lt;h&gt;Heading&lt;/h&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#2">Paragraphs</a></td>
-    <td>&lt;p&gt;</td>
-    <td>&lt;/p&gt;</td>
-    <td>&lt;p&gt;Paragraph text&lt;/p&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#3">Comments</a></td>
-    <td>&lt;!--</td>
-    <td>--&gt;</td>
-    <td>&lt;!-- Text you can't see --&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#4">Line Breaks</a></td>
-    <td>&lt;br&gt;</td>
-    <td>None</td>
-    <td>&lt;br&gt;</td>
-  </tr>
-  <tr>
-    <td><a href="#4">Horizontal Line</a></td>
-    <td>&lt;hr&gt;</td>
-    <td>None</td>
-    <td>&lt;hr&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#5">Links</a></td>
-    <td>&lt;a href="your link here"&gt;</td>
-    <td>&lt;/a&gt;</td>
-    <td>&lt;a href="your link here"&gt;Words with link &lt;/a&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#6">Images</a></td>
-    <td>&lt;img src="link.jpg" width="x" height="y"&gt;</td>
-    <td>None</td>
-    <td>&lt;img src="link.jpg" width="x" height="y"&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#7">Unordered Lists</a></td>
-    <td>&lt;ul style="list-style-type:disk"&gt;<br>
-        &lt;li&gt; <br></td>
-    <td>&lt;/ul&gt;<br>
-        &lt;/li&gt; <br></td>
-    <td>&lt;ul style="list-style-type:disk"&gt; <br> 
-    &lt;li&gt; List item &lt;/li&gt; <br> 
-    &lt;/ul&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#8">Ordered Lists</a></td>
-    <td>&lt;ol type="1"&gt; <br>
-        &lt;li&gt; <br></td>
-    <td>&lt;/ol&gt; <br>
-        &lt;/li&gt; <br></td>
-    <td>&lt;ol type="1"&gt; <br> 
-    &lt;li&gt; List item &lt;/li&gt; <br> 
-    &lt;/ol&gt;</td>
-  </tr>
-    <tr>
-    <td><a href="#9">Tables</a></td>
-    <td>&lt;table&gt; <br>
-        &lt;tr&gt; <br>
-        &lt;th&gt; <br>
-        &lt;td&gt; <br></td>
-    <td>&lt;/table&gt; <br>
-        &lt;/tr&gt; <br>
-        &lt;/th&gt; <br>
-        &lt;/td&gt; <br></td>
-    <td>&lt;table&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;th&gt;Collumn #1 Title&lt;/th&gt; <br>
-    &lt;th&gt;Collumn #2 Title&lt;/th&gt; <br>
-  &lt;/tr&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;td&gt;First row, first spot&lt;/td&gt; <br>
-    &lt;td&gt;First row, second spot&lt;/td&gt; <br>
-  &lt;/tr&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;td&gt;Second row, first spot&lt;/td&gt; <br>
-    &lt;td&gt;Second row, second spot&lt;/td&gt; <br>
-  &lt;/tr&gt; <br>
-&lt;/table&gt;<br></td>
-  </tr>
-    <tr>
-    <td><a href="#10">Blocks</a></td>
-    <td>&lt;div&gt;</td>
-    <td>&lt;/div&gt;</td>
-    <td>&lt;div style= "color:blue;"&gt; <br>
-        &lt;p&gt; Hello World! &lt;/p&gt; <br>
-        &lt;p&gt; Colors! &lt;/p&gt; <br>
-        &lt;p&gt; HTML! &lt;/p&gt; <br>
-        &lt;/div&gt; </td>
-</table>
-<hr> 
-<h1 id= "1">For the largest heading, use &lt;h1&gt; Text &lt;/h1&gt;</h1>
-<h2>This is a (smaller) heading. <br> 
-Put text here using &lt;h2&gt; Text &lt;/h2&gt;. </h2>
-<h6> You can go down to h6! &lt;h6&gt; Text &lt;/h6&gt; </h6>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_headings.asp">this link</a>
-    for more information on headings.</p>
-<hr>
-<p id= "2">This is a paragraph. Insert one using &lt;p&gt; Text &lt;/p&gt;. This is where the majority of your text is going to be. &lt;!DOCTYPE html&gt; declares a document to be in html. &lt;html&gt; sets your computer up for reading html. &lt;head&gt; is a container for metdata, such as the page title. The &lt;title&gt; element is used to title your page. This title shows up on the tab when you open it. &lt;body&gt; is what shows up on your page, visible to the page viewer. To set up a document, use this layout: <br> <br>
-&lt;!DOCTYPE html&gt; <br>
-&lt;html&gt; <br>
-&lt;head&gt; <br>
-&lt;title&gt; Page Title &lt;/title&gt; <br>
-&lt;/head&gt; <br>
-&lt;body&gt; <br>
-<p> All of your visible code goes here, including headings, paragraphs, pictures, etc. </p> 
-&lt;/body&gt; <br>
-&lt;/html&gt; <br>
-</p>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_paragraphs.asp">this link</a>
-    for more information on paragraphs, and <a href="https://www.w3schools.com/html/html_basic.asp">
-    this link</a> for the HTML document tags.</p>
-<hr>
-<p id= "3"> What if you want to put something in the body, like a note for yourself, and don’t want it to show up in the final website? Simple. Comment it out using <br>
-&lt;!-- your comment —&gt; </p>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_comments.asp">this link</a>
-    for more information on comments.</p>
-<hr>
-<p id= "4"> If I hit enter
-and put this text on 
-two lines in my code, it will not actually
-make a new paragraph.  </p>
-<p> But if I insert a  <br> line break, it will.</p> 
-<p> A line break is written as: &lt;br&gt; </p>
-<p> Another way to divide text is with a horizontal line. You can make one using &lt;hr&gt; </p>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_paragraphs.asp">this link</a>
-    for more information on line breaks, and <a href="https://www.w3schools.com/html/html_headings.asp">
-    this link</a> for details on horizontal lines.</p>
-<hr>
-<a href="https://mitrania8012.github.io/" id= "5"> This is a link back to my main ECS page.</a>
-<p> To insert a link, use &lt;a href="your link" &gt; Text that has the link. &lt;/a&gt; </p>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_links.asp">this link</a>
-    for more information on links.</p>
-<hr>
-<p id= "6"> This is an image. You set the height and width yourself. To insert an image, use: <br>
-&lt;img src="link.jpg" width="x" height="y"&gt;</p>
-<img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" width="350" height="142">
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_images.asp">this link</a>
-    for more information on images.</p>
-<hr>
-<p id= "7"> You can insert lists. Unordered lists can be written like this: <br>
-&lt;ul style="list-style-type:disk"&gt; <br>
-&lt;li&gt; List item &lt;/li&gt; <br>
-&lt;/ul&gt;
-You can change the disk to different styles.</p> 
+  <h1>Welcome to my HTML tutorial!</h1> <hr>
+    <table class="tbl">
+      <tr>
+        <th class= "ttitle">Name</th> 
+        <th class= "ttitle">Start Tag</th>
+        <th class= "ttitle">End Tag</th> 
+        <th class= "ttitle">Example</th>
+      </tr>
+      <tr>
+        <td><a href="#2">Doctype</a></td>
+        <td>&lt;!DOCTYPE html&gt;</td>
+        <td>None</td>
+        <td>&lt;!DOCTYPE html&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#2">HTML</a></td>
+        <td>&lt;html&gt;</td>
+        <td>None</td>
+        <td>&lt;html&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#2">Head</a></td>
+        <td>&lt;head&gt;</td>
+        <td>&lt;/head&gt;</td>
+        <td>&lt;head&gt;metdata here, including title;/head&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#2">Title</a></td>
+        <td>&lt;title&gt;</td>
+        <td>&lt;/title;</td>
+        <td>&lt;title&gt;Page Title&lt;/title&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#2">Body</a></td>
+        <td>&lt;body&gt;</td>
+        <td>&lt;/body&gt;</td>
+        <td>&lt;body&gt;visible HTML&lt;/body&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#1">Headings</a></td>
+        <td>&lt;h&gt;</td>
+        <td>&lt;/h&gt;</td>
+        <td>&lt;h&gt;Heading&lt;/h&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#2">Paragraphs</a></td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;/p&gt;</td>
+        <td>&lt;p&gt;Paragraph text&lt;/p&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#3">Comments</a></td>
+        <td>&lt;!--</td>
+        <td>--&gt;</td>
+        <td>&lt;!-- Text you can't see --&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#4">Line Breaks</a></td>
+        <td>&lt;br&gt;</td>
+        <td>None</td>
+        <td>&lt;br&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#4">Horizontal Line</a></td>
+        <td>&lt;hr&gt;</td>
+        <td>None</td>
+        <td>&lt;hr&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#5">Links</a></td>
+        <td>&lt;a href="your link here"&gt;</td>
+        <td>&lt;/a&gt;</td>
+        <td>&lt;a href="your link here"&gt;Words with link &lt;/a&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#6">Images</a></td>
+        <td>&lt;img src="link.jpg" width="x" height="y"&gt;</td>
+        <td>None</td>
+        <td>&lt;img src="link.jpg" width="x" height="y"&gt;</td>
+      </tr>
+        <tr>
+        <td><a href="#7">Unordered Lists</a></td>
+        <td>&lt;ul style="list-style-type:disk"&gt;<br>
+            &lt;li&gt; <br></td>
+        <td>&lt;/ul&gt;<br>
+            &lt;/li&gt; <br></td>
+        <td>&lt;ul style="list-style-type:disk"&gt; <br> 
+        &lt;li&gt; List item &lt;/li&gt; <br> 
+        &lt;/ul&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#8">Ordered Lists</a></td>
+        <td>&lt;ol type="1"&gt; <br>
+            &lt;li&gt; <br></td>
+        <td>&lt;/ol&gt; <br>
+            &lt;/li&gt; <br></td>
+        <td>&lt;ol type="1"&gt; <br> 
+        &lt;li&gt; List item &lt;/li&gt; <br> 
+        &lt;/ol&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#9">Tables</a></td>
+        <td>&lt;table&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;th&gt; <br>
+            &lt;td&gt; <br></td>
+        <td>&lt;/table&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/th&gt; <br>
+            &lt;/td&gt; <br></td>
+        <td>&lt;table&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;th&gt;Collumn #1 Title&lt;/th&gt; <br>
+            &lt;th&gt;Collumn #2 Title&lt;/th&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;First row, first spot&lt;/td&gt; <br>
+            &lt;td&gt;First row, second spot&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Second row, first spot&lt;/td&gt; <br>
+            &lt;td&gt;Second row, second spot&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/table&gt;<br></td>
+      </tr>
+      <tr>
+        <td><a href="#10">Blocks</a></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>&lt;div style= "color:blue;"&gt; <br>
+            &lt;p&gt; Hello World! &lt;/p&gt; <br>
+            &lt;p&gt; Colors! &lt;/p&gt; <br>
+            &lt;p&gt; HTML! &lt;/p&gt; <br>
+            &lt;/div&gt; </td>
+      </tr>
+    </table>
+  <hr> 
+  <h3 class= "headers"  id= "1">
+    Headings 
+  </h3>
+    <h1>
+      For the largest heading, use &lt;h1&gt; Text &lt;/h1&gt;
+    </h1>
+    <h2>
+      This is a (smaller) heading. 
+      <br> 
+      Put text here using &lt;h2&gt; Text &lt;/h2&gt;. 
+    </h2>
+    <h6> 
+      You can go down to h6! &lt;h6&gt; Text &lt;/h6&gt; 
+    </h6>
+    <br> 
+    <p> 
+      See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_headings.asp">this link</a>
+      for more information on headings.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "2"> 
+    Basics 
+  </h3>
+    <p>
+      This is a paragraph. Insert one using &lt;p&gt; Text &lt;/p&gt;. This is where the majority of your text is going to be. &lt;!DOCTYPE html&gt; declares a document to be in html. &lt;html&gt; sets your computer up for reading html. &lt;head&gt; is a container for metdata, such as the page title. The &lt;title&gt; element is used to title your page. This title shows up on the tab when you open it. &lt;body&gt; is what shows up on your page, visible to the page viewer. To set up a document, use this layout: <br> <br>
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html&gt; <br>
+      &lt;head&gt; <br>
+      &lt;title&gt; Page Title &lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      &lt;body&gt; <br>
+      All of your visible code goes here, including headings, paragraphs, pictures, etc. 
+      &lt;/body&gt; <br>
+      &lt;/html&gt; <br>
+    </p>
+    <br> 
+    <p>
+      See it on w3schools. Go to 
+      <a 
+        href="https://www.w3schools.com/html/html_paragraphs.asp">this link
+      </a>
+      for more information on paragraphs, and 
+      <a href="https://www.w3schools.com/html/html_basic.asp">
+        this link
+      </a> 
+        for the HTML document tags.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "3"> 
+    Comments 
+  </h3>
+    <p> 
+      What if you want to put something in the body, like a note for yourself, and don’t want it to show up in the final website? Simple. Comment it out using <br> &lt;!-- your comment —&gt;
+    </p>
+    <br> 
+    <p> 
+      See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_comments.asp">this link</a> for more information on comments.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "4"> 
+    Breaks and Lines 
+  </h3>
+    <p> 
+      If I hit enter
+      and put this text on 
+      two lines in my code, it will not actually
+      make a new paragraph.  
+    </p>
+    <p> 
+        But if I insert a  
+      <br> 
+        line break, it will.
+    </p> 
+    <p> 
+      A line break is written as: &lt;br&gt; 
+    </p>
+    <p> 
+      Another way to divide text is with a horizontal line. You can make one using &lt;hr&gt;
+    </p>
+    <br> 
+    <p> 
+      See it on w3schools. Go to 
+      <a href="https://www.w3schools.com/html/html_paragraphs.asp">
+        this link
+      </a>
+      for more information on line breaks, and <a href="https://www.w3schools.com/html/html_headings.asp">
+      this link</a> for details on horizontal lines.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "5"> 
+    Links 
+  </h3>
+    <a href="https://mitrania8012.github.io/"> 
+      This is a link back to my main ECS page.
+    </a>
+    <p> 
+      To insert a link, use &lt;a href="your link" &gt; Text that has the link. &lt;/a&gt; 
+    </p>
+    <br> 
+    <p> 
+      See it on w3schools. Go to 
+      <a href="https://www.w3schools.com/html/html_links.asp">
+        this link
+      </a>
+      for more information on links.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "6"> 
+    Images 
+  </h3>
+  <p> 
+    This is an image. You set the height and width yourself. To insert an image, use: <br>
+    &lt;img src="link.jpg" width="x" height="y"&gt;
+  </p>
+  <img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" width="350" height="142">
+  <br> 
+  <p> 
+    See it on w3schools. Go to 
+    <a href="https://www.w3schools.com/html/html_images.asp">
+      this link
+    </a>
+    for more information on images.
+  </p>
+  <hr>
+  <h3 class= "headers" id= "7"> 
+    Unordered Lists 
+  </h3>
+  <p> 
+    You can insert lists. Unordered lists can be written like this: <br>
+    &lt;ul style="list-style-type:disk"&gt; <br>
+    &lt;li&gt; List item &lt;/li&gt; <br>
+    &lt;/ul&gt;
+    You can change the disk to different styles.
+  </p> 
   <ul style="list-style-type:disk">
-  <li> This is an unordered list item (disk) </li>
+    <li> This is an unordered list item (disk) </li>
   </ul>
   <ul style="list-style-type:circle">
-  <li> This is an unordered list item (circle) </li>
+    <li> This is an unordered list item (circle) </li>
   </ul>
   <ul style="list-style-type:square">
-  <li> This is an unordered list item (square) </li>
+    <li> This is an unordered list item (square) </li>
   </ul>
   <ul style="list-style-type:none">
-  <li> This is an unordered list item (none) </li>
+    <li> This is an unordered list item (none) </li>
   </ul>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_lists.asp">this link</a>
-    for more information on lists.</p>
-<hr>
-<p id= "8"> You can also insert ordered lists. Ordered lists can be written like this: <br>
-&lt;ol type="1"&gt; <br>
-&lt;li&gt; List item &lt;/li&gt; <br>
-&lt;/ol&gt;<br>
-You can also change the ordering to different styles.</p> 
-  <ol type="1">
-  <li> This is an ordered list item (1) </li>
-  </ol>
-  <ol type="A">
-  <li> This is an ordered list item (A) </li>
-  </ol>
-  <ol type="a">
-  <li> This is an ordered list item (a) </li>
-  </ol>
-  <ol type="I">
-  <li> This is an ordered list item (I) </li>
-  </ol>
-  <ol type="i">
-  <li> This is an ordered list item (i) </li>
-  </ol>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_lists.asp">this link</a>
-    for more information on lists.</p>
-<hr>
-<p id= "9"> Another thing you can do in HTML is make a table. <br>
-To make a table, follow this format: <br>
-&lt;table&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;th&gt;Collumn #1 Title&lt;/th&gt; <br>
-    &lt;th&gt;Collumn #2 Title&lt;/th&gt; <br>
-    &lt;th&gt;Collumn #3 Title&lt;/th&gt; <br>
-  &lt;/tr&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;td&gt;First row, first spot&lt;/td&gt; <br>
-    &lt;td&gt;First row, second spot&lt;/td&gt; <br>
-    &lt;td&gt;First row, third spot&lt;/td&gt; <br>
-  &lt;/tr&gt; <br>
-  &lt;tr&gt; <br>
-    &lt;td&gt;Second row, first spot&lt;/td&gt; <br>
-    &lt;td&gt;Second row, second spot&lt;/td&gt; <br>
-    &lt;td&gt;Second row, third spot&lt;/td&gt;<br>
-  &lt;/tr&gt; <br>
-&lt;/table&gt;<br>
-So what do these things mean? &lt;tr&gt; is used to divide different rows. &lt;th&gt; is for the titles of the collums. It bolds and centers the text. Finally, &lt;td&gt; defines where different words/numbers become different elements in a table.
-</p>
-<table>
-  <tr>
-    <th>Name</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>23</td> 
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>13</td> 
-  </tr>
-</table>
-  <br> <p> See it on w3schools. Go to <a href="https://www.w3schools.com/html/html_tables.asp">this link</a>
-    for more information on tables.</p>
-<hr>
-<p id= "10"> Finally, there is the &lt;div&gt; element. &lt;div&gt; is a block element. When you use it, the text jumps to a new line kind of like with &lt;br&gt;. It is used like this: <br>
-&lt;div&gt; Text &lt;/div&gt; <br>
-&lt;div&gt; More text &lt;/div&gt; <br>
-The final result would be:
-<div> Text </div>
-<div> More text </div> <br>
-So why do we use it instead sometimes? <br>
-With &lt;div&gt;, you can apply style to large amounts of text at once. Although it is best to do style using CSS, you can also apply it directly into HTML. Let's look at an example.</p>
-<p style= "color:blue;"> Hello World! </p> 
-<p style= "color:blue;"> Colors! </p>
-<p style= "color:blue;"> HTML! </p>
-<p> This can be done one of two ways: <br>
-&lt;p style= "color:blue;"&gt; Hello World! &lt;/p&gt; <br>
-&lt;p style= "color:blue;"&gt; Colors! &lt;/p&gt; <br>
-&lt;p style= "color:blue;"&gt; HTML! &lt;/p&gt; <br> <br>
-Or, the much simpler, easier way: <br>
-&lt;div style= "color:blue;"&gt; <br>
-&lt;p&gt; Hello World! &lt;/p&gt; <br>
-&lt;p&gt; Colors! &lt;/p&gt; <br>
-&lt;p&gt; HTML! &lt;/p&gt; <br>
-&lt;/div&gt; <br> <br>
-Both of these will have the same result, but one is easier. As you can see, &lt;div&gt; is a very useful block element. It can be used to apply style to large batches of text, and even just as a divider for two separate parts of something.
-</p>
-<br> <p> See it on w3schools. Go to <a href=https://www.w3schools.com/html/html_blocks.asp">this link</a>
-    for more information blocks.</p>
+  <br> 
+  <p> 
+    See it on w3schools. Go to 
+      <a href="https://www.w3schools.com/html/html_lists.asp">
+        this link
+      </a>
+      for more information on lists.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "8"> 
+    Ordered Lists 
+  </h3>
+    <p> 
+      You can also insert ordered lists. Ordered lists can be written like this: <br>
+      &lt;ol type="1"&gt; <br>
+      &lt;li&gt; List item &lt;/li&gt; <br>
+      &lt;/ol&gt;<br>
+      You can also change the ordering to different styles.
+    </p> 
+    <ol type="1">
+      <li> This is an ordered list item (1) </li>
+    </ol>
+    <ol type="A">
+      <li> This is an ordered list item (A) </li>
+    </ol>
+    <ol type="a">
+      <li> This is an ordered list item (a) </li>
+    </ol>
+    <ol type="I">
+      <li> This is an ordered list item (I) </li>
+    </ol>
+    <ol type="i">
+      <li> This is an ordered list item (i) </li>
+    </ol>
+    <br> 
+    <p> 
+      See it on w3schools. Go to 
+        <a href="https://www.w3schools.com/html/html_lists.asp">
+          this link
+        </a>
+      for more information on lists.
+    </p>
+  <hr>
+  <h3 class= "headers" id= "9"> 
+    Tables 
+  </h3>
+    <p> 
+      Another thing you can do in HTML is make a table. <br>
+      To make a table, follow this format: <br>
+      &lt;table&gt; <br>
+      &lt;tr&gt; <br>
+      &lt;th&gt;Collumn #1 Title&lt;/th&gt; <br>
+      &lt;th&gt;Collumn #2 Title&lt;/th&gt; <br>
+      &lt;th&gt;Collumn #3 Title&lt;/th&gt; <br>
+      &lt;/tr&gt; <br>
+      &lt;tr&gt; <br>
+      &lt;td&gt;First row, first spot&lt;/td&gt; <br>
+      &lt;td&gt;First row, second spot&lt;/td&gt; <br>
+      &lt;td&gt;First row, third spot&lt;/td&gt; <br>
+      &lt;/tr&gt; <br>
+      &lt;tr&gt; <br>
+      &lt;td&gt;Second row, first spot&lt;/td&gt; <br>
+      &lt;td&gt;Second row, second spot&lt;/td&gt; <br>
+      &lt;td&gt;Second row, third spot&lt;/td&gt;<br>
+      &lt;/tr&gt; <br>
+      &lt;/table&gt;<br>
+      So what do these things mean? &lt;tr&gt; is used to divide different rows. &lt;th&gt; is for the titles of the collums. It bolds and centers the text. Finally, &lt;td&gt; defines where different words/numbers become different elements in a table.
+    </p>
+    <table class="tbl">
+      <tr>
+        <th class= "ttitle">Name</th> 
+        <th class= "ttitle">Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>23</td> 
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>13</td> 
+      </tr>
+    </table>
+    <br> 
+    <p> 
+      See it on w3schools. Go to 
+        <a href="https://www.w3schools.com/html/html_tables.asp">
+          this link
+        </a>
+      for more information on tables.
+    </p>
+    <hr>
+    <h3 class= "headers" id= "10"> 
+      Blocks 
+    </h3>
+    <p> 
+      Finally, there is the &lt;div&gt; element. &lt;div&gt; is a block element. When you use it, the text jumps to a new line kind of like with &lt;br&gt;. It is used like this: 
+      <br>
+      &lt;div&gt; Text &lt;/div&gt; 
+      <br>
+      &lt;div&gt; More text &lt;/div&gt; 
+      <br>
+      The final result would be:
+      <div> 
+        Text 
+      </div>
+      <div> 
+        More text 
+      </div> 
+      <br>
+      So why do we use it instead sometimes? 
+      <br>
+      With &lt;div&gt;, you can apply style to large amounts of text at once. Although it is best to do style using CSS, you can also apply it directly into HTML. Let's look at an example.
+    </p>
+    <p style= "color:blue;"> Hello World! </p> 
+    <p style= "color:blue;"> Colors! </p>
+    <p style= "color:blue;"> HTML! </p>
+    <p> 
+      This can be done one of two ways: 
+      <br>
+      &lt;p style= "color:blue;"&gt; Hello World! &lt;/p&gt; 
+      <br>
+      &lt;p style= "color:blue;"&gt; Colors! &lt;/p&gt; 
+      <br>
+      &lt;p style= "color:blue;"&gt; HTML! &lt;/p&gt; 
+      <br> <br>
+      Or, the much simpler, easier way: 
+      <br>
+      &lt;div style= "color:blue;"&gt; 
+      <br>
+      &lt;p&gt; Hello World! &lt;/p&gt; 
+      <br>
+      &lt;p&gt; Colors! &lt;/p&gt; 
+      <br>
+      &lt;p&gt; HTML! &lt;/p&gt; 
+      <br>
+      &lt;/div&gt; 
+      <br> <br>
+      Both of these will have the same result, but one is easier. As you can see, &lt;div&gt; is a very useful block element. It can be used to apply style to large batches of text, and even just as a divider for two separate parts of something.
+    </p>
+    <br> 
+    <p> See it on w3schools. Go to 
+      <a href="https://www.w3schools.com/html/html_blocks.asp">
+        this link
+      </a>
+      for more information blocks.
+    </p>
 </body>
 </html>
