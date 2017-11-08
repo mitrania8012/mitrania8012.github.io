@@ -1,6 +1,5 @@
 img {
-  -webkit-filter: brightness(50%); /*
-  Safari 6.0 - 9.0 */
+  -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
