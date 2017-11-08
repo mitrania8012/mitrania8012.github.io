@@ -2,6 +2,7 @@ body {
   font-family: Comic Sans MS, arial, Sans-Serif;
 }
 
+/* Style for the table */
 .tbl {
     font-family: Comic Sans MS, arial, sans-serif;
     border-collapse: collapse;
@@ -18,40 +19,44 @@ tr:nth-child(even) {
     background-color: lightgrey;
 }
 
+/* Style for the table title*/
 .ttitle {
   background-color: black;
   color: white;
   border: 2px solid white;
 }
 
-.headers {
-  font-size: 45px;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border: 5px dotted white;
-}
+/* Style for all the headers */
+  .headers {
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 5px dotted white;
+  }
 
-a:link {
-color: black;
-background-color: transparent;
-text-decoration: underline;
-}
+  /* Style for the links */
+  a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  }
 
-a:visited {
-   color: gray;
-    background-color: transparent;
-    text-decoration: underline;
-}
+  a:visited {
+     color: gray;
+      background-color: transparent;
+      text-decoration: underline;
+  }
 
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
+  a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+  }
 
-a:active {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-}
+  a:active {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+  }
+/* End style for the links */
