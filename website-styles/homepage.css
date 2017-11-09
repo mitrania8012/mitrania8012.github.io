@@ -82,6 +82,7 @@ ul {
     font-size: 3vw;
 }
 
-.dlink {
-  color: black;
+#slink {
+  color: navy;
+  text-decoration: underline;
 }
