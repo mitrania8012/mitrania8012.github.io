@@ -58,7 +58,7 @@ h1 {
 }
 
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 
 img {
@@ -85,4 +85,17 @@ ul {
 #slink {
   color: navy;
   text-decoration: underline;
+}
+
+.favim{
+  width: 32vw;
+}
+
+.hov:hover { 
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%); 
+}
+
+.cen {
+  text-align: center;
 }
