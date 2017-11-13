@@ -18,11 +18,21 @@
   padding:0;
 }
 
-.middlec {
+.lowc {
   position: absolute;
-  top: 50%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.highc {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100vw;
+  font-size: 10vh;
+  width: 95%;
 }
 
 .ingredients {
