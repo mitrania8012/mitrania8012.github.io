@@ -58,6 +58,13 @@ h1 {
   padding: 0.5vw;
 }
 
+.bh1 {
+  font-size: 7.5vw; 
+  border: 7px solid white;
+  font: Georgia, arial, Sans-Serif bold;
+  padding: 0.5vw;
+}
+
 body {
   background-color: white;
 }
