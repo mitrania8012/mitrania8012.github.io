@@ -1,3 +1,4 @@
+/* Darken title image */
 .timage {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
@@ -6,12 +7,14 @@
   padding:0;
 }
 
+/* Page title */
 .tphoto {
   position: relative;
   text-align: center;
   color: white;
 }
 
+/* Linkbar */
 .bar {
     list-style-type: none;
     display: flex;
@@ -27,6 +30,7 @@
   padding:0;
 }
 
+/* Title text pos */
 .lowc {
   position: absolute;
   top: 56%;
@@ -34,6 +38,7 @@
   transform: translate(-50%, -50%);
 }
 
+/* Linkbar text pos */
 .highc {
   position: absolute;
   top: 10%;
@@ -44,6 +49,7 @@
   width: 95%;
 }
 
+/* Left align */
 .ingredients {
   position: absolute;
   top: 42%;
@@ -58,15 +64,12 @@ h1 {
   padding: 0.5vw;
 }
 
+/* Smaller bacon title */
 .bh1 {
   font-size: 7.5vw; 
   border: 7px solid white;
   font: Georgia, arial, Sans-Serif bold;
   padding: 0.5vw;
-}
-
-body {
-  background-color: white;
 }
 
 h2 {
@@ -75,6 +78,7 @@ h2 {
   font-size: 8vw;
 }
 
+/* Feeds/time bar */
 .infobar {
     list-style-type: none;
     display: flex;
@@ -101,6 +105,7 @@ h4 {
   width: 40vw;
 }
 
+/* Ingredients/recipe */
 li, ul {
   font-size: 3vw;
   width: 100;
@@ -116,10 +121,12 @@ p {
     padding: 10px;
 }
 
+/* Ingredient list */
 .column.text {
     width: 50%;
 }
 
+/* Food photo */
 .column.img {
     width: 40%;
 }
@@ -128,6 +135,7 @@ p {
   background-color: lightgray;
 }
 
+/* Clear floats after hr */
 hr {
   clear: both;
 }
@@ -156,6 +164,7 @@ a:active {
     text-decoration: none;
 }
 
+/* Color ingredients */
 .i {
   color:red;
   display: inline;
