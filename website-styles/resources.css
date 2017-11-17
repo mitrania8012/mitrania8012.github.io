@@ -52,73 +52,25 @@
 }
 
 h1 {
-  font-size: 7.5vw; 
+  font-size: 18vw; 
   border: 7px solid white;
   font: Georgia, arial, Sans-Serif bold;
   padding: 0.5vw;
 }
 
-body {
-  background-color: white;
-}
-
-h2 {
-  text-align: center;
-  margin:0;
-  font-size: 8vw;
-}
-
-.infobar {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 5;
-    padding: 0;
-    font-size: 3vw;
-}
-
-h3 {
-  text-align: center;
-  margin:0;
-  font-size: 3.5vw;
-}
-
-h4 {
-  margin:0;
-  font-size: 3.5vw;
-  width: 100%;
-}
-
-.half{
-  font-size: 3vw;
-  width: 40vw;
-}
-
-li, ul {
-  font-size: 3vw;
-  width: 100;
-}
-
-p {
-  text-align: center;
-  font-size: 2.5vw;
-}
-
 .column {
-    float: left;
-    padding: 10px;
+    float: none;
+    padding: 0px;
 }
 
-.column.text {
+.text {
     width: 50%;
+    float: left;
 }
 
-.column.img {
-    width: 40%;
-}
-
-.title {
-  background-color: lightgray;
+.img {
+    width: 50%;
+    float: right;
 }
 
 hr {
@@ -149,7 +101,31 @@ a:active {
     text-decoration: none;
 }
 
-.i {
-  color:red;
-  display: inline;
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 2vw;
+    width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin:0;
+  font-size: 8vw;
+  background-color: lightgray;
+}
+
+.wide{
+  width: 48vw;
+}
+
+#slink {
+  color: blue;
+  text-decoration: underline;
+  font-size: 4vw;
+}
+
+ol, li {
+  list-style-type: none;
+  text-align: center;
 }
