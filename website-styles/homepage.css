@@ -1,14 +1,17 @@
+/* Darken title image */
 img {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
-
+ 
+/* Page title */
 .photo {
   position: relative;
   text-align: center;
   color: white;
 }
- 
+
+/* Title text pos */ 
 .lowc {
   position: absolute;
   top: 56%;
@@ -16,6 +19,7 @@ img {
   transform: translate(-50%, -50%);
 }
 
+/* Linkbar text pos */
 .highc {
   position: absolute;
   top: 10%;
@@ -57,10 +61,6 @@ h1 {
   padding: 0.5vw;
 }
 
-body {
-  background-color: white;
-}
-
 img {
   width: 100%;
 }
@@ -82,15 +82,18 @@ ul {
     font-size: 3vw;
 }
 
+/* Make one link navy */
 #slink {
   color: navy;
   text-decoration: underline;
 }
 
+/* Width of linked images */
 .favim{
   width: 32vw;
 }
 
+/* Images change color on hover */
 .hov:hover { 
   -webkit-filter: brightness(100%);
   filter: brightness(100%); 
