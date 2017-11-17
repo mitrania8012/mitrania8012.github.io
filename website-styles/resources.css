@@ -1,3 +1,4 @@
+/* Darken title image */
 .timage {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
@@ -6,12 +7,15 @@
   padding:0;
 }
 
+
+/* Page title */
 .tphoto {
   position: relative;
   text-align: center;
   color: white;
 }
 
+/* Linkbar */
 .bar {
     list-style-type: none;
     display: flex;
@@ -27,6 +31,7 @@
   padding:0;
 }
 
+/* Title text pos */
 .lowc {
   position: absolute;
   top: 56%;
@@ -34,6 +39,7 @@
   transform: translate(-50%, -50%);
 }
 
+/* Linkbar text pos */
 .highc {
   position: absolute;
   top: 10%;
@@ -44,6 +50,7 @@
   width: 95%;
 }
 
+/* Left align */
 .ingredients {
   position: absolute;
   top: 42%;
@@ -63,11 +70,13 @@ h1 {
     padding: 0px;
 }
 
+/* Ingredient list */
 .text {
     width: 50%;
     float: left;
 }
 
+/* Food photo */
 .img {
     width: 50%;
     float: right;
@@ -119,6 +128,7 @@ table, th, td {
   width: 48vw;
 }
 
+/* Make one link navy */
 #slink {
   color: blue;
   text-decoration: underline;
